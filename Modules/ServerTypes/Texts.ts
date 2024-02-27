@@ -89,7 +89,7 @@ namespace MovieTutorial.Texts {
                 export const GenreList: string;
                 export const Kind: string;
                 export const MovieId: string;
-                export const PrimaryImage: string;
+                export const PrimaryImages: string;
                 export const ReleaseDate: string;
                 export const Runtime: string;
                 export const Storyline: string;

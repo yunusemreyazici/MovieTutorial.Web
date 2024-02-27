@@ -2,7 +2,6 @@
 import { Gender } from "./Gender";
 
 export interface PersonRow {
-    Gender?: Gender;
     PersonId?: number;
     FirstName?: string;
     LastName?: string;
@@ -10,6 +9,7 @@ export interface PersonRow {
     BirthPlace?: string;
     Height?: number;
     FullName?: string;
+    Gender?: Gender;
     PrimaryImage?: string;
     GalleryImages?: string;
 }

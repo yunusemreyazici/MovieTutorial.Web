@@ -13,7 +13,7 @@ export interface MovieRow {
     Kind?: MovieKind;
     GenreList?: number[];
     CastList?: MovieCastRow[];
-    PrimaryImage?: string;
+    PrimaryImages?: string;
     GalleryImages?: string;
 }
 

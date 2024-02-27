@@ -94,3 +94,6 @@
 .s-MovieDB-MovieCastEditDialog > .size {
   width: 450px;
 }
+.s-MovieDB-PersonDialog .s-PersonMovieGrid > .grid-container {
+  height: 186px;
+}

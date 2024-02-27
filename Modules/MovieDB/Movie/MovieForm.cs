@@ -1,9 +1,9 @@
-﻿
+
 
 namespace MovieTutorial.MovieDB.Forms;
 
 [FormScript("MovieDB.Movie")]
-[BasedOnRow(typeof(MovieRow), CheckNames = true)]
+[BasedOnRow(typeof(MovieRow))]
 public class MovieForm
 {
     [TextAreaEditor(Rows = 3)]

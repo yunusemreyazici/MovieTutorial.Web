@@ -54,7 +54,6 @@ public sealed class PersonRow : Row<PersonRow.RowFields>, IIdRow, INameRow
 
     public class RowFields : RowFieldsBase
     {
-        public EnumField<Gender> Gender;
         public Int32Field PersonId;
         public StringField FirstName;
         public StringField LastName;
@@ -62,6 +61,8 @@ public sealed class PersonRow : Row<PersonRow.RowFields>, IIdRow, INameRow
         public StringField BirthPlace;
         public Int32Field Height;
         public StringField FullName;
+        public EnumField<Gender> Gender;
+
         public StringField PrimaryImage;
         public StringField GalleryImages;
 
